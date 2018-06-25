@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{B2AD6ECD-7736-4755-B109-591230CCFF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myblogDAL", "myblogDAL", "{EE4FA298-3A8C-4792-9487-E0FB6CE5EC5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mblogBLL", "mblogBLL", "{4B15F51C-0DA9-4ED7-AC14-4F9E12FE6F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myblogModel", "myblogModel", "{4D21702E-011B-4CB0-8F0F-351BA74D8BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MybolgDAL", "MybolgDAL\MybolgDAL\MybolgDAL.csproj", "{6DB22527-3109-43AC-846D-433CEE685EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyblogeBLL", "MyblogeBLL\MyblogeBLL\MyblogeBLL.csproj", "{1F45103A-A199-4543-9EF8-35BC8AB8C126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyblogeModel", "MyblogeModel\MyblogeModel\MyblogeModel.csproj", "{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{1F45103A-A199-4543-9EF8-35BC8AB8C126}|MyblogeBLL.dll;{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}|MyblogeModel.dll;{6DB22527-3109-43AC-846D-433CEE685EEA}|MybolgDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/web"
+		Debug.AspNetCompiler.PhysicalPath = "web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web"
+		Release.AspNetCompiler.PhysicalPath = "web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "29935"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB22527-3109-43AC-846D-433CEE685EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB22527-3109-43AC-846D-433CEE685EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB22527-3109-43AC-846D-433CEE685EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB22527-3109-43AC-846D-433CEE685EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F45103A-A199-4543-9EF8-35BC8AB8C126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F45103A-A199-4543-9EF8-35BC8AB8C126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F45103A-A199-4543-9EF8-35BC8AB8C126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F45103A-A199-4543-9EF8-35BC8AB8C126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E15AE9-2FEE-4C62-87A9-41296EB2A56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA4E945-F1CC-4CC1-941B-175B8ACA7D47} = {B2AD6ECD-7736-4755-B109-591230CCFF01}
+		{6DB22527-3109-43AC-846D-433CEE685EEA} = {EE4FA298-3A8C-4792-9487-E0FB6CE5EC5F}
+		{1F45103A-A199-4543-9EF8-35BC8AB8C126} = {4B15F51C-0DA9-4ED7-AC14-4F9E12FE6F28}
+		{19E15AE9-2FEE-4C62-87A9-41296EB2A56C} = {4D21702E-011B-4CB0-8F0F-351BA74D8BF3}
+	EndGlobalSection
+EndGlobal

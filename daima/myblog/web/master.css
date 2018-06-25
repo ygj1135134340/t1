@@ -1,0 +1,312 @@
+﻿
+body
+{
+    background: none repeat scroll 0 0  #2d2d21;
+    color:#eee041;
+    font-family: "SimSun","宋体","Arial Narrow";
+    font-size: 14px;
+    
+    }
+ h4
+ {
+      text-align :center ;
+      background-color :#10100c;
+      width :148px;
+      float :left;
+     }   
+    
+
+ ul, ol {
+    list-style-type: none;
+}
+select, input, img, select {
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+a {
+    text-decoration: none;
+}
+
+
+/*第一大栏*/
+#FirstID
+{Width:1263px;
+      margin-bottom :0px;
+  }
+/*第一栏*/
+#firstLoginID
+{ 
+        text-align :right;      
+        width  :1103px;
+        height:30px;
+        margin-left:95px;
+        margin-right:65px;
+        font-size:20px;
+        background-color :#2a3524;       
+        background-repeat :no-repeat;
+       
+              
+    }
+ #firstLoginID a
+{
+    margin-right:10px;
+  }     
+/* 博客系统*/    
+#firstAboutID
+    { margin-top   :8px;
+        background:url(image/boke_03.gif);
+        margin-left:95px;
+        margin-right:65px;
+        width: 1103px;
+        height:188px;
+        text-align :left ;
+        padding-left :25px;       
+        background-repeat:no-repeat ;
+        }  
+/*首页、相册信息*/
+#firstAboutphotoID
+{
+     margin-left:95px; margin-right:65px; width: 1103px; height:28px;
+     background:url('image/boke_05.gif') no-repeat;
+     font-weight :bold;
+     color:#c4bb2d;  
+     text-align :left;
+     padding-left :25px;    
+     margin-right:10px;
+     
+}
+    
+ /*第二大栏*/ 
+  #SecondID
+  {
+      width :1103px;     
+      margin-left :95px;
+      margin-right:65px;
+       background-color :#34342d;
+      
+      }
+#SecondHolderID
+{
+    width:900px;
+    float :left;
+    margin-left :10px
+    }
+
+/*关于我 日志信息*/  
+#SecondsingeID
+{  
+    margin-top :0px;
+    width:180px;
+     height :800px;
+    float :right;
+    background :url(image/boke_07.gif);
+    background-repeat :repeat-y ;
+   
+    }  
+            
+ 
+ #SecondsingeVisitorID /*访客信息*/
+ {Height:60px; Width:148px; 
+     }
+    
+ #TrewLog /*日志分类*/
+ { 
+     text-align:center;
+     }    
+/*第三大栏*/  
+#ThirdID
+{
+    width:1263px;
+    height:50px;
+    font-size:x-large;
+    padding-top:10Px;
+    text-align :center;
+    }   
+    
+    
+  
+  /*登陆页面  以下：*/  
+    
+ #MineBolgeLogin
+ {
+     
+     margin-top :150px;
+     margin-left:90px;
+     background:url(image/login01.gif);
+     background-repeat :no-repeat;
+     width:763px;
+     height:426px;
+     }
+     
+     /*用户名*//*密码*/
+   #MineBolgeLogin #Txtnamed
+   {
+       margin-top :191px;
+       margin-left:368px;
+       
+       }
+       /*登录按钮*/
+   #MineBolgeLogin #btnlogin
+   {
+        margin-top:27px;
+        float:left;       
+        margin-left:66px;
+        Width:120px; Height:36px;       
+       }
+  
+  #MineBolgeLogin #btnlogin02
+  {
+       margin-top :26px;
+        float:left;       
+        margin-left:66px;
+        Width:120px; Height:36px;   
+      
+      }
+      
+  /*注册页面  以下：*/
+  
+  #registertable
+  {
+      margin-top:100px;
+      margin-left :100px;
+      }
+      
+      
+      
+    
+ /*个人设置*/
+ #MyNes
+ {
+     width :600px; height:500px;
+   margin-left :200px;     margin-top :100px;
+     }
+ 
+ 
+ #MyNesbogle
+ { border :2px double #fd061d;
+     color :#062101;
+      text-align :left;
+   background-color:#b1ad7e;
+    height: 455px;
+    width: 590px;
+    margin-right: 31px;
+    margin-top :5px;
+    margin-left :5px;
+}
+ 
+ /*图片*/
+ #MyNesiamge
+ {
+     Height:160px; Width:150px;
+ 
+     }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* 上传图片以下*/
+ 
+ #UploadPhoto
+ { text-align :center ;
+     }
+      /*Gridview上传图片div */
+ #UpGridview
+ {
+     margin-top :10px;
+     margin-left:10px;
+     }
+     
+     
+ /*维护相册 以下：*/
+#MaintainPhoto
+{
+    text-align :center;
+    width:768px;
+    margin-left:50px;
+    margin-top:50px;
+    }
+    /*维护相册gridview控件*/
+    #MaintainPhotoGridview
+    {
+        background :#5eab31;
+        }
+        
+        
+        
+        
+  /*日志维护*/
+  #journal
+  { text-align:center;
+      }
+      
+      
+ #JournalList
+ {
+    text-align :center;
+    background:#746b62;
+    width :800px;
+    
+    height :650px;
+    margin-top: 50px;
+    margin-left :50px;
+     }
+     
+  #rizhi
+  {
+       background:#e2b6b6;
+       color :Black  ;
+       font-weight :bold ;
+       font-size :18px;
+      }
+  #page
+  {
+      font-weight :bold ;
+      
+       background:#e2b6b6;
+     
+      }    
+      
+      
+      
+/*浏览相册   以下：*/
+
+#Browsingphoto
+{ 
+    
+    }
+    
+    
+    
+    
+/*查看相片*/
+#PicManagerLook{ width:800px; float:left;}
+#Pic{ float:left; margin-left:50px; margin-top:20px; margin-bottom:10px; color:Blue;}
+#PicLook{ width:300px; height:270px;  color:Blue; margin-bottom:200px;  margin-left:350px;}
+
+
+
+#fabiaorizhi
+{
+     text-align:center ;
+     margin-left :100px;
+     margin-top:25px;
+    }
+    
+    
+#discousslog
+{
+     text-align :center
+    }    
+    
+    
+#discussRepeater
+{text-align :center
+    }    
+    
+    ul
+    { float :left ;
+        } 

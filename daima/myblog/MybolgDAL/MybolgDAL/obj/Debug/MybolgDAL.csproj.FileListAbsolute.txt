@@ -1,0 +1,23 @@
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.dll
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.pdb
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.dll
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.pdb
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\obj\Debug\ResolveAssemblyReference.cache
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.dll
+F:\mineU3\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.pdb
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.dll
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.pdb
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.dll
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.pdb
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.csprojResolveAssemblyReference.cache
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.dll
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.pdb
+D:\软件工程课设\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.dll.config
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.dll.config
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.dll
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MybolgDAL.pdb
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.dll
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\bin\Debug\MyblogeModel.pdb
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.csprojResolveAssemblyReference.cache
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.dll
+C:\Users\wxx\Desktop\C# 博客网站\myblog\MybolgDAL\MybolgDAL\obj\Debug\MybolgDAL.pdb

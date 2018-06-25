@@ -1,0 +1,470 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+<head id="Head1" runat="server">
+    <link href="master.css" rel="stylesheet" type="text/css" />
+    <title>W&Y博客网</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<style type="text/css">
+    body {
+	background-color:#0f0f0f;
+	
+}
+ha1 {
+	font-family:隶书;
+	font-size:19px;
+	position:absolute;
+	color:White;
+	left:1055px;
+	top:197px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha2 {
+	font-family:Calibri;
+	font-size:120px;
+	position:absolute;
+	color:Red;
+	left:150px;
+	top:-17px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha3 {
+	font-family:Calibri;
+	font-size:80px;
+	position:absolute;
+	color:White;
+	left:250px;
+	top:28px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha4 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:28px;
+	position:absolute;
+	color:White;
+	left:1060px;
+	top:660px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha41 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:88px;
+	position:absolute;
+	color:#999999;
+	left:1090px;
+	top:615px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha5 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:28px;
+	position:absolute;
+	color:White;
+	left:1080px;
+	top:990px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha51 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:88px;
+	position:absolute;
+	color:#999999;
+	left:1090px;
+	top:945px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha6 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:28px;
+	position:absolute;
+	color:White;
+	left:1100px;
+	top:1180px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+ha61 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:88px;
+	position:absolute;
+	color:#999999;
+	left:1110px;
+	top:1135px;
+padding:0px,border-radius:20px,border:20px solid #96C2F1;
+	width: 1212px;
+}
+#x1 {
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1026px;
+	top:234px;
+	background-color:#1b1b1b;
+   width:194px;
+        height: 50px;
+    }
+    #x2 {
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1026px;
+	top:564px;
+	background-color:#1b1b1b;
+   width:194px;
+        height: 50px;
+    }
+       #x3 {
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1026px;
+	top:319px;
+	background-color:#1b1b1b;
+   width:194px;
+        height: 50px;
+    }
+      #x4 {
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1026px;
+	top:404px;
+	background-color:#1b1b1b;
+   width:194px;
+        height: 50px;
+    }
+       #x5 {
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1026px;
+	top:489px;
+	background-color:#1b1b1b;
+   width:194px;
+        height: 50px;
+    }
+    #_left{
+
+	position:absolute;
+	left:140px;
+	top:150px;
+
+}
+   #dd{
+
+	position:absolute;
+	left:150px;
+	top:0px;
+
+}
+  #x6{
+  font-family:隶书;
+	position:absolute;
+	color:White;
+	left:1105px;
+	top:197px;
+	font-size:16px;
+
+}
+  #x7{
+  	font-family:隶书;
+	font-size:26px;
+	color:Red;
+	position:absolute;
+	
+	left:1050px;
+	top:170px;
+
+}
+  #x8{
+  	font-family:隶书;
+	font-size:20px;
+	color:White;
+	position:absolute;
+	left:140px;
+	top:130px;
+
+}
+  #x9{
+  	font-family:隶书;
+	font-size:20px;
+	color:White;
+	position:absolute;
+	left:1048px;
+	top:880px;
+
+}
+#x10{
+  	font-family:隶书;
+	font-size:20px;
+	color:White;
+	position:absolute;
+	left:1048px;
+	top:910px;
+
+}
+
+#x11{
+  	font-family:隶书;
+	font-size:20px;
+	color:White;
+	position:absolute;
+	left:1048px;
+	top:1050px;
+	width:160px
+
+}
+#x12{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1250px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+#x13{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1290px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+#x14{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1330px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+#x15{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1370px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+#x16{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1410px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+#x17{
+  
+	font-family:幼圆;
+	font-size:26px;
+	
+	position:absolute;
+	left:1040px;
+	top:1450px;
+	background-color:#1b1b1b;
+   width:168px;
+        height: 33px;
+
+}
+ #t1{
+
+	position:absolute;
+	left:1050px;
+	top:710px;
+
+}
+
+    
+</style>
+
+
+<body background="image/s2.jpeg" >
+
+
+
+
+<div id="_left" style="overflow:hidden;width:880px;height:478px;"> 
+
+<table cellpadding="0" cellspacing="0" border="0"> 
+
+<tr><td id="_left1" valign="top" align="center"> 
+
+<table cellpadding="2" cellspacing="0" border="0"> 
+
+<tr align="center"> 
+
+<td><a href="ss.jsp"><img src="image\bbj.jpg" width="1300" border=0></a></td> 
+
+<td><a href="1.jsp"><img src="image\sa.jpeg" width="1300" height="731" border=0></a></td> 
+
+<td><a href="1.jsp"><img src="image\s1.jpg" width="1300" height="731" border=0></a></td> 
+
+<td><a href="1.jsp"><img src="image\s2.jpeg" width="1300" height="731" border=0></a></td> 
+
+
+</tr> 
+
+</table> 
+
+</td> 
+
+<td id="_left2" valign="top"></td> 
+
+</tr> 
+
+</table> 
+
+</div> 
+
+<script>
+
+    var speed = 20//速度数值越大速度越慢 
+
+    _left2.innerHTML = _left1.innerHTML
+
+    function Marquee1() {
+
+        if (_left2.offsetWidth - _left.scrollLeft <= 0)
+
+            _left.scrollLeft -= _left1.offsetWidth
+
+        else {
+
+            _left.scrollLeft++
+
+        }
+
+    }
+
+    var MyMar1 = setInterval(Marquee1, speed)
+
+    _left.onmouseover = function () { clearInterval(MyMar1) }
+
+    _left.onmouseout = function () { MyMar1 = setInterval(Marquee1, speed) } 
+
+</script>
+ <form id="form1" runat="server">
+ <div style=" position:absolute; left:140px; width:1081px; height:150px; background-color:#000000; top: 0px;"></div>
+ <div style=" position:absolute; left:450px; width:50px; height:50px; background-color:#ffffff; top: 55px;"></div>
+  <div style=" position:absolute; left:452px; width:22px; height:22px; background-color:#000000; top: 57px;"></div>
+  <div style=" position:absolute; left:476px; width:22px; height:22px; background-color:#000000; top: 81px;"></div>
+  <div style=" position:absolute; left:600px; width:350px; height:50px; background-color:#ffff00; top: 0px;"></div>
+  <div style=" position:absolute; left:750px; width:350px; height:50px; background-color:#555555; top: 50px;"></div>
+  <div style=" position:absolute; left:900px; width:320px; height:50px; background-color:#cc3300; top: 100px;"></div>
+<div style="opacity:0.75; position:absolute; left:1026px; width:194px; height:482px; background-color:#111111; top: 150px;"></div>
+<div id="x2" align="center"  ><asp:LinkButton ID="lbtndenglu" runat="server" 
+                  Text="登录"    Visible="true"   Style="color: #ffffff;" onclick="LinkButton4_Click"
+          ForeColor="White" Font-Bold="True" ></asp:LinkButton></div>
+ <div id="x1" align="center"  >
+
+     <asp:LinkButton ID="lbtnfabiaowenzhang" 
+         runat="server"  Text="发表文章"  Visible="true"  Style="color: #999999;" 
+         onclick="lbtnfabiaowenzhang_Click" ForeColor="#666666" Font-Bold="True"></asp:LinkButton></div>
+          
+         <div id="x3" align="center"  ><asp:LinkButton ID="lbtnweihuxiangce" runat="server" Text="维护相册" 
+                Visible="true"   Style="color: #666666;" 
+         onclick="lbtnweihuxiangce_Click" ForeColor="White" Font-Bold="True"></asp:LinkButton></div>
+         <div id="x4" align="center"  ><asp:LinkButton ID="lbtngerenshezhi" runat="server" Text="个人设置" 
+                Visible="true"   Style="color: #666666;" 
+         onclick="lbtngerenshezhi_Click" ForeColor="White" Font-Bold="True"></asp:LinkButton></div>
+            <div id="x5" align="center"  ><asp:LinkButton ID="lbtnshangchuantupian" runat="server" Text="上传图片"  
+                Visible="true"   Style="color: #666666;" 
+         onclick="lbtnshangchuantupian_Click" ForeColor="White" Font-Bold="True" ></asp:LinkButton></div>
+
+          <div id="x6"><asp:Label ID="LblBokeSystem" runat="server" Font-Bold="True"  
+                    Font-Size="X-Large"></asp:Label></div>
+                    <ha1>欢迎，</ha1>
+                    <ha2>M</ha2>
+                    <ha3>yBoke</ha3>
+                   <div id="x7"> <asp:Label ID="LblDescribe" runat="server" Text=""></asp:Label></div>
+                   <div id="x8"> <asp:LinkButton ID="LBtnHomePage" runat="server" Text="首页" 
+                    Style="color: #ffffff;" onclick="LBtnHomePage_Click"></asp:LinkButton>
+                    <h>|</h>
+                     <asp:LinkButton ID="LBtnphoto" runat="server" Text="相册" Style="color: #ffffff;" 
+                    onclick="LBtnphoto_Click"></asp:LinkButton>
+               
+                    <h>|</h>
+                <asp:LinkButton ID="LBtnBlog" runat="server" Text="Blog"   Visible="false" 
+                    Style="color: #ffffff;" onclick="LBtnBlog_Click"></asp:LinkButton></div>
+        <asp:ContentPlaceHolder ID="mineBolge" runat="server" > </asp:ContentPlaceHolder><%--????????????????????--%>
+        <div style=" position:absolute; left:1026px; width:194px; height:879px; background-color:#000000; top: 630px;"></div>
+        <ha41>A</ha41>
+        <ha4>About Me</ha4>
+        <div id="t1"><asp:Image ID="Image1"  runat="server" Height="148px" Width="141px" /></div>
+        <div id="x9">姓名：<asp:Label ID="LblName" runat="server" Text=""></asp:Label> <br /></div>
+        <div id="x10">地址：<asp:Label ID="LblAdress" runat="server" Text=""></asp:Label></div>
+
+         <ha51>V</ha51>
+        <ha5>Visitors</ha5>
+         <div id="x11" ><asp:Label ID="Label1" runat="server" Text="欢迎你："></asp:Label>
+                <asp:Label ID="LblVisitor" runat="server" ForeColor="Red" ></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="访问我的博客"></asp:Label></div>
+
+                <ha61>B</ha61>
+        <ha6>Blogs</ha6>
+             <div id="x12" align="center">
+                    <asp:LinkButton ID="LinkButton1" runat="server" Text="体 育" 
+                        Style="color: #ffffff;" onclick="LinkButton6_Click"></asp:LinkButton> </div>
+                    <div id="x13" align="center"><asp:LinkButton ID="LinkButton2" runat="server" Text="财 经" 
+                        Style="color: #ffffff;" onclick="LinkButton7_Click"></asp:LinkButton></div>
+                    <div id="x14" align="center"><asp:LinkButton ID="LinkButton3" runat="server" Text="房 产" 
+                        Style="color: #ffffff;" onclick="LinkButton8_Click"></asp:LinkButton></div>
+                    <div id="x15" align="center"><asp:LinkButton ID="LinkButton4" runat="server" Text="娱 乐" 
+                        Style="color: #ffffff;" onclick="LinkButton9_Click"></asp:LinkButton></div>
+                    <div id="x16" align="center"><asp:LinkButton ID="LinkButton5" runat="server" Text="计算机技术" 
+                        Style="color: #ffffff;" onclick="LinkButton10_Click"></asp:LinkButton></div>
+                    <div id="x17" align="center"><asp:LinkButton ID="LinkButton12" runat="server" Text="其 他" 
+                        Style="color: #ffffff;" onclick="LinkButton11_Click"></asp:LinkButton></div>
+                     
+               
+
+
+ 
+   
+
+
+    </form>
+    
+</body>
+</html>
